@@ -250,7 +250,7 @@
       ],
       "settings": {
         // punto para hacer referencia a objeto
-        "foreground": "#ebebeb",
+        "foreground": "#cccccc",
         "fontStyle": "italic"
       }
     },
@@ -370,7 +370,7 @@
       "scope": ["meta.object-literal.key", "variable.object.property"],
       "settings": {
         // variables dentro de objeto
-        "foreground": "#ebebeb"
+        "foreground": "#cccccc"
       }
     },
     {
@@ -516,7 +516,7 @@
         "variable.other.constant entity.name.function"
       ],
       "settings": {
-        // nombre variavle
+        // nombre variable
         "foreground": "#08a045"
       }
     },
@@ -529,8 +529,8 @@
     {
       "scope": ["source.elm storage.type"],
       "settings": {
-        "foreground": "#A85FF1",
-        "fontStyle": "normal"
+        "foreground": "#A85FF1"
+        // "fontStyle": "normal"
       }
     },
     {
