@@ -336,6 +336,8 @@
     },
     {
       "scope": [
+        "keyword.control.from",
+        "keyword.control.as",
         "keyword.control.import",
         "meta.module.name.elm support",
         "meta.import.elm support",
@@ -351,6 +353,7 @@
     {
       "scope": [
         "keyword.control",
+        "keyword.control.default",
         "keyword.control.conditional",
         "storage.modifier",
         "keyword.operator.new",
@@ -366,7 +369,7 @@
         "punctuation.definition.block.tag.jsdoc"
       ],
       "settings": {
-        // default, as, from 2842d7ef
+        // default 2842d7ef
         "foreground": "#C7910C"
       }
     },

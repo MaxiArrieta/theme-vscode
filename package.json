@@ -9,13 +9,19 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MaxiArrieta/theme-vscode"
+    },
     "contributes": {
-        "themes": [
-            {
-                "label": "mitheme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/mitheme-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "maxi-theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/mitheme-color-theme.json"
+        }]
     }
 }
