@@ -290,7 +290,6 @@
       "scope": [
         "source",
         "support",
-        "constant.character.entity.named",
         "meta.jsx.children"
       ],
       "settings": {
@@ -378,7 +377,8 @@
         "support.class.console",
         "keyword.other.await",
         "storage.type.class.jsdoc",
-        "punctuation.definition.block.tag.jsdoc"
+        "punctuation.definition.block.tag.jsdoc",
+        "constant.character.entity.named"
       ],
       "settings": {
         // default 2842d7ef
@@ -413,6 +413,15 @@
       ],
       "settings": {
         "foreground": "#C7910C"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#4FC1FF"
       }
     },
     {
@@ -539,7 +548,9 @@
         "punctuation.definition.variable",
         "support.variable.property",
         "meta.class variable.object.property",
-        "variable.other.constant entity.name.function"
+        "entity.name.function",
+        "variable.other.constant",
+        "variable.other.enummember"
       ],
       "settings": {
         // nombre variable 08a045
@@ -803,7 +814,8 @@
     },
     {
       "scope": [
-        "constant.numeric"
+        "constant.numeric",
+        "variable.other.enummember"
       ],
       "settings": {
         "foreground": "#D4770C"
