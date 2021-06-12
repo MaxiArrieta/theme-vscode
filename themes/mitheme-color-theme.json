@@ -248,7 +248,8 @@
         "support.other.namespace.php",
         "entity.other.attribute-name.namespace.xml",
         "record.accessor",
-        "entity.name.record.field.accessor"
+        "entity.name.record.field.accessor",
+        "storage.type.annotation.dart"
       ],
       "settings": {
         // punto para hacer referencia a objeto 2a9d8f
@@ -258,7 +259,7 @@
     },
     {
       "scope": [
-        "entity.name.type"
+        "entity.name.type",
       ],
       "settings": {
         "foreground": "#6d6574"
@@ -279,7 +280,7 @@
     },
     {
       "scope": [
-        "constant"
+        "constant",
       ],
       "settings": {
         // true, falce af2121 902fc9
@@ -290,7 +291,7 @@
       "scope": [
         "source",
         "support",
-        "meta.jsx.children"
+        "meta.jsx.children",
       ],
       "settings": {
         "foreground": "#AEB2B2"
@@ -315,6 +316,7 @@
         "keyword.operator.assignment.python",
         "keyword.operator.assignment.augmented.python",
         "keyword.operator.arithmetic.python",
+        "source.dart",
       ],
       "settings": {
         // export
@@ -333,12 +335,13 @@
         "meta.decorator meta.method.declaration entity.name.function",
         "variable.language.super.ts",
         "source.directive",
+        // "storage.type.annotation.dart",
         "meta.function-call.generic",
         "meta.method-call.static.php",
         "meta.method-call.php",
         "meta.class storage.type",
         "punctuation.section.property-list.begin.bracket.curly.scss",
-        "punctuation.section.property-list.end.bracket.curly.scss"
+        "punctuation.section.property-list.end.bracket.curly.scss",
       ],
       // nombre de funcion
       "settings": {
@@ -388,7 +391,8 @@
     {
       "scope": [
         "meta.object-literal.key",
-        "variable.object.property"
+        "variable.object.property",
+        "storage.type.primitive.dart",
       ],
       "settings": {
         // variables dentro de objeto
@@ -472,7 +476,8 @@
       "scope": [
         "variable.language.this",
         "variable.language.special.self",
-        "variable.parameter.function.language.special.self"
+        "variable.parameter.function.language.special.self",
+        // "storage.type.primitive.dart"
       ],
       "settings": {
         "foreground": "#D4770C",
@@ -497,7 +502,8 @@
         "support.variable.magic.python",
         "source.css-ignored-vscode",
         "meta.property-list",
-        "entity.name.tag.css"
+        "entity.name.tag.css",
+        "keyword.declaration.dart"
       ],
       "settings": {
         // variables palabras reservadas
@@ -619,6 +625,7 @@
         "entity.name.tag.liquid",
         "invalid.deprecated.entity.other.attribute-name",
         "meta.embedded.block.blade storage.type.php",
+        "support.class.dart"
       ],
       "settings": {
         "foreground": "#C7910C",
